@@ -1,0 +1,17 @@
+---
+layout: 'wrapper'
+author: 'Pearl'
+---
+
+{% if page.title == 'New Title' %}
+This is the new post.
+{% else %}
+This is not a new post.
+{% endif %}
+
+<h1>{{page.title}}</h1>
+<h3>{{layout.author}}</h3>
+
+<hr>
+
+{{ content }}
